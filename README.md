@@ -26,7 +26,7 @@ openjdk version "1.8.0_45-internal"
 
 ## Project Structure
 
-*   Download the .tar file of latest version from here and unzip the file
+*   Download the .tar file of latest version from [here](https://github.com/rahulbpkl/rahul_audit_tool_draft-0/blob/master/rat.tar.gz) and unzip the file
 *   The project file contains three directories.
 *   config - which contains all the configuration files.
 *   Sample - which contains some examples of both noncompliant and complaint code. 
