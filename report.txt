@@ -1,0 +1,64 @@
+*****************************************************Scanning Started***********************************************
+2016/05/15 21:29:36
+*************************************************************************************************************
+
+
+     file:/home/rahul/Desktop/Rahul_Audit_0/Rahul_Audit_1/Samples/while.java
+MSC01-J. Do not use an empty infinite loop. Error at line 4
+     file:/home/rahul/Desktop/Rahul_Audit_0/Rahul_Audit_1/Samples/Cycle.java
+DCL00-J. Prevent class initialization cycles (Intraclass Cycle) problem. 'static' constructor initialization at line 3, invoked at line  8 and variable ' deposit ' initialization at line 4. Please do 'static' constructor initialization after all 'static' variable initialization
+     file:/home/rahul/Desktop/Rahul_Audit_0/Rahul_Audit_1/Samples/Cycle.java
+DCL00-J. Prevent class initialization cycles (Intraclass Cycle) problem. 'static' constructor initialization at line 3, invoked at line  9 and variable ' t_a ' initialization at line 5. Please do 'static' constructor initialization after all 'static' variable initialization
+     file:/home/rahul/Desktop/Rahul_Audit_0/Rahul_Audit_1/Samples/Cycle.java
+DCL00-J. Prevent class initialization cycles (Intraclass Cycle) problem. 'static' constructor initialization at line 18, invoked at line  23 and variable ' deposit ' initialization at line 19. Please do 'static' constructor initialization after all 'static' variable initialization
+     file:/home/rahul/Desktop/Rahul_Audit_0/Rahul_Audit_1/Samples/Cycle.java
+DCL00-J. Prevent class initialization cycles (Intraclass Cycle) problem. 'static' constructor initialization at line 18, invoked at line  24 and variable ' t_a ' initialization at line 20. Please do 'static' constructor initialization after all 'static' variable initialization
+     file:/home/rahul/Desktop/Rahul_Audit_0/Rahul_Audit_1/Samples/Enhanced.java
+DCL02-J. Do not modify the collection's elements during an enhanced for statement. Error at line 11
+     file:/home/rahul/Desktop/Rahul_Audit_0/Rahul_Audit_1/Samples/Vector.java
+DCL01-J. Do not reuse public identifiers from the Java Standard Library:  Error at line 3 . 'Vector' is a built-in Java Class name. Please use different one 
+     file:/home/rahul/Desktop/Rahul_Audit_0/Rahul_Audit_1/Samples/Vector.java
+DCL00-J. Prevent class initialization cycles (Intraclass Cycle) problem. 'static' constructor initialization at line 5, invoked at line  9 and variable ' deposit ' initialization at line 6. Please do 'static' constructor initialization after all 'static' variable initialization
+
+
+**********************Report***********************
+---------------------------------------------------
+ Rule        Total Violation
+---------------------------------------------------
+DCL00J   -      5
+DCL01J   -      1
+DCL02J   -      1
+MSC01J   -      1
+---------------------------------------------------
+Total 0 directories searched and 4 files scanned 
+
+
+*****************************************************Scanning Finished***********************************************
+2016/05/15 21:29:39
+*************************************************************************************************************
+*****************************************************Scanning Started***********************************************
+2016/05/15 21:31:10
+*************************************************************************************************************
+
+
+     file:Samples/Vector.java
+DCL01-J. Do not reuse public identifiers from the Java Standard Library:  Error at line 3 . 'Vector' is a built-in Java Class name. Please use different one 
+     file:Samples/Vector.java
+DCL00-J. Prevent class initialization cycles (Intraclass Cycle) problem. 'static' constructor initialization at line 5, invoked at line  9 and variable ' deposit ' initialization at line 6. Please do 'static' constructor initialization after all 'static' variable initialization
+
+
+**********************Report***********************
+---------------------------------------------------
+ Rule        Total Violation
+---------------------------------------------------
+DCL00J   -      1
+DCL01J   -      1
+DCL02J   -      0
+MSC01J   -      0
+---------------------------------------------------
+Total 0 directories searched and 1 files scanned 
+
+
+*****************************************************Scanning Finished***********************************************
+2016/05/15 21:31:10
+*************************************************************************************************************

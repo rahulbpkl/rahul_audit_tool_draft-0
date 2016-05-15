@@ -1,0 +1,55 @@
+## RAT.jar
+
+This package contains a jar file which checks the given code satisfies CERT coding standard. RAT.jar is used to process large number of source code written in java. It won't compile and generate the class file, it will only verifies the coding standard violation. So input should be an error free(completed successful compilation) java file.
+
+
+ 
+
+## Rules Implemented
+
+*   [DCL00-J. Prevent class initialization cycles](https://www.securecoding.cert.org/confluence/display/java/DCL00-J.+Prevent+class+initialization+cycles)
+*   [DCL01-J. Do not reuse public identifiers from the Java Standard Library](https://www.securecoding.cert.org/confluence/display/java/DCL01-J.+Do+not+reuse+public+identifiers+from+the+Java+Standard+Library)
+*   [DCL02-J. Do not modify the collection's elements during an enhanced for statement](https://www.securecoding.cert.org/confluence/display/java/DCL02-J.+Do+not+modify+the+collection%27s+elements+during+an+enhanced+for+statement)
+*   [MSC01-J. Do not use an empty infinite loop](https://www.securecoding.cert.org/confluence/display/java/MSC01-J.+Do+not+use+an+empty+infinite+loop)
+ 
+
+## Dependency
+
+Compiled on 
+
+```
+openjdk version "1.8.0_45-internal"
+```
+
+## Project Structure
+
+*   Download the .tar file of latest version from here and unzip the file
+*   The project file contains a directory called config which contains all the configuration files and another directory Sample which contains some examples of both noncompliant and complaint code and a jar file named rat.jar which is the actual executeable file of the project.
+*   Before running verify all the three are present.
+ 
+
+## How To use
+
+Open terminal and type
+
+```
+java -jar rat.jar
+```
+You will get a message like this
+
+```
+Specify the output filename :
+```
+
+Here you have to specify a file name which will save the error report (Ex: errorlog.txt).
+
+```
+Enter the location to be scan :
+```
+Give a valid location of the source code. (Ex: \Samples)
+
+It will gernerate a report of the coding violation present in the given directory.
+
+ 
+
+ 
