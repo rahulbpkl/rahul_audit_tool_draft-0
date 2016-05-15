@@ -44,7 +44,7 @@ java -jar rat.jar
 ```
 You will get a menu and you can select which option you want.
 
-For detailed information please go to the [wiki page](https://github.com/rahulbpkl/rahul_audit_tool_draft-0-/wiki/)
+For detailed information please go to the [wiki page](https://github.com/rahulbpkl/rahul_audit_tool_draft-0/wiki)
 
 
  
